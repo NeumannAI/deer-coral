@@ -1,0 +1,2225 @@
+/*html5*/
+
+article,
+aside,
+dialog,
+footer,
+header,
+section,
+footer,
+nav,
+figure,
+menu {
+    display: block
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* base */
+
+html,
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+form,
+image {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    /*list-style: none;*/
+}
+
+img {
+    border: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ul li,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+select,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    /*解決Chrome 12px以下字級*/
+}
+sub, sup { 
+    line-height: 0; 
+    position: relative; 
+    vertical-align: baseline;
+}
+sup { 
+    top: -0.25em; 
+}
+sub { 
+    bottom: -0.25em; 
+}
+.m-wrap{
+    color: #323232
+}
+#sectionOverview {
+    padding: 0px;
+    height: auto;
+    /*依造內容多少去決定高度*/
+    
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+#strixpro-wrap {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+#strixpro-wrap #PN61T-Upgrade .mainsize, 
+#strixpro-wrap #PN61T-applications .mainsize,
+#strixpro-wrap #PN61T-enhanced .mainsize, 
+#strixpro-wrap #PN61T-further .mainsize, 
+#strixpro-wrap #PN61T-storagedesign .mainsize, 
+#strixpro-wrap #PN61T-dualstorage .mainsize,
+#strixpro-wrap #PN61T-saving .mainsize,
+#strixpro-wrap #PN61T-04 .mainsize, 
+#strixpro-wrap #PN61T-a05 .mainsize,
+#strixpro-wrap #PN61T-05 .mainsize, 
+#strixpro-wrap #PN61T-06 .mainsize,
+#strixpro-wrap #PN61T-csm .mainsize,
+#strixpro-wrap #PN61T-raid .mainsize,
+#strixpro-wrap #PN61T-12 .mainsize{
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 18px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#strixpro-wrap .overview-wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 3em 0 6em;
+}
+#strixpro-wrap .overview-wrapper .entry-box{
+    position: relative;
+    display: inline-block;
+}
+.m-wrap .full-inner {
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+    // height: 100%;
+}
+html #sectionOverview #strixpro-wrap img, 
+html #special-sectionOverview #strixpro-wrap img,
+html #old-sectionOverview #strixpro-wrap img {
+    height: auto !important;
+    max-width: 100% !important;
+    vertical-align: middle;
+    border: none;
+}
+
+a:focus, img{
+    outline: none !important;
+}
+#colorbox #cboxClose {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    text-indent: -9999px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: -30px;
+    background: url(../images/videoclose.png) no-repeat 0 0;
+    right: 20px;
+}
+#strixpro-wrap .mtitle p {
+    color: #00b2dc;
+    font-size: 40px;
+    font-family: "SF UI Display Thin", "Myriad Pro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    width: 100%;
+    display: block;
+    line-height: 1em;
+    position: relative;
+    z-index: 10;
+    margin: 0 auto 25px;
+    text-align: center;
+}
+#strixpro-wrap .stitle p{
+    color: #2f2e2e;
+    font-size: 30px;
+    font-family: "SF UI Display Thin", "Myriad Pro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    width: 100%;
+    display: block;
+    line-height: 1em;
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px 0 15px
+}
+#strixpro-wrap .mainsize .maintitle .info {
+    font-family: "SF UI Display Thin", "Myriad Pro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 0;
+    max-width: 1024px
+}
+#strixpro-wrap .mainfull .maintitle .info {
+    font-family: "SF UI Display Thin", "Myriad Pro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#strixpro-wrap .mainsize .text-left, #strixpro-wrap .mainsize .text-left p,
+#strixpro-wrap .maintitle .text-left, #strixpro-wrap .maintitle .text-left p{
+    text-align: left !important;
+}
+#strixpro-wrap .mainsize .text-center, #strixpro-wrap .mainsize .text-center p,
+#strixpro-wrap .maintitle .text-center, #strixpro-wrap .maintitle .text-center p{
+    text-align: center !important;
+}
+#strixpro-wrap section.whiteBg .mtitle p, #strixpro-wrap section.whiteBg .stitle p, #strixpro-wrap section.whiteBg .maintitle .info {
+    color: #fff !important;
+}
+.full-section:first-child {
+    border-top: 1px solid #ccc;
+}
+#strixpro-wrap .full-1920-section {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+#strixpro-wrap .full-section .mainfull{
+    text-align: center;
+}
+#strixpro-wrap .full-section .mainfull .maintitle{
+    padding: 0 18px
+}
+#strixpro-wrap {
+    background: #fff;
+}
+#strixpro-wrap section {
+    padding: 0;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+#strixpro-wrap img.webstyle,
+#strixpro-wrap .webstyle {
+    display: block;
+}
+#strixpro-wrap img.mobile,
+#strixpro-wrap .mobile {
+    display: none;
+}
+hr{
+    width: 90%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e8e8e8;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+/*PN61T-PN61T-kv*/
+#strixpro-wrap #PN61T-kv {
+    background: #fff url(../images/pn61t_kv.jpg) center top/1920px no-repeat;
+    min-height: 760px;
+    text-align: center;
+}
+#strixpro-wrap #PN61T-kv .mainfull .maintitle{
+    width: 56%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    padding: 80px 0 0;
+    left: 3%
+}
+#strixpro-wrap #PN61T-kv .mainfull .maintitle .info{
+  width: 100%
+}
+@media (min-width: 960px) and (max-width: 1200px) {
+  #strixpro-wrap #PN61T-kv .mainfull .maintitle{
+      width: 65%;
+      padding: 50px 0 0;
+      left: 2%
+  }
+}
+/*PN61T-dualstorage*/
+#strixpro-wrap #PN61T-dualstorage {
+    background: #fff url(../images/dualstorage.jpg) center top/1920px no-repeat;
+    min-height: 1250px;
+    text-align: center;
+}
+#strixpro-wrap #PN61T-dualstorage .maintitle{
+  padding-top: 700px
+}
+#strixpro-wrap #PN61T-dualstorage img{
+  margin-top: 30px
+}
+/*PN61T-saving*/
+#strixpro-wrap #PN61T-saving {
+    background: #fff url(../images/saving.jpg) center top/1920px no-repeat;
+    min-height: 1640px;
+    text-align: center;
+    padding: 100px 0 0;
+    position: relative;
+}
+#strixpro-wrap #PN61T-saving .maintitle .mtitle p {
+    color: #00b2dc !important;
+}
+#strixpro-wrap #PN61T-saving ul{
+  display: inline-block;
+  width: 100%;
+  margin: 50px 0;
+  padding-top: 700px
+}
+#strixpro-wrap #PN61T-saving ul li{
+  display: inline-block;
+  width: 33.3333%;
+  float: left;
+}
+#strixpro-wrap #PN61T-saving ul li img{
+  width: 100%;
+  max-width: 640px !important;
+}
+#strixpro-wrap #PN61T-saving ul li p{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #bdbdbd;
+  margin-top: 20px
+}
+/*PN61T-Upgrade*/
+#strixpro-wrap #PN61T-Upgrade {
+    background: #fff;
+    padding-top: 100px !important;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 50px
+}
+#strixpro-wrap #PN61T-Upgrade img{
+    padding: 40px 18px 0;
+    margin: 0 auto
+}
+#strixpro-wrap #PN61T-Upgrade .mainfull img{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/*PN61T-applications*/
+#strixpro-wrap #PN61T-applications {
+    background: #fff;
+    padding-top: 100px;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 50px
+}
+#strixpro-wrap #PN61T-applications img{
+    padding: 0px 18px 0;
+    margin: 0 auto
+}
+#strixpro-wrap #PN61T-applications .mainfull img{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+#strixpro-wrap #PN61T-applications ul.line_box{
+  max-width: 1400px
+}
+#strixpro-wrap #PN61T-applications ul.line_box li{
+  width: 24%;
+  margin: 0.5%
+}
+#strixpro-wrap #PN61T-applications ul.line_box.blue_style{
+  max-width: 1200px
+}
+#strixpro-wrap #PN61T-applications ul.line_box.blue_style li{
+  min-height: inherit;
+}
+
+@media only screen and (max-width: 1200px) {
+  #strixpro-wrap #PN61T-applications ul.line_box{
+    margin-top: 0;
+    padding: 0 18px
+  }
+  #strixpro-wrap #PN61T-applications ul.line_box li{
+    width: 48%;
+    margin: 0 1% 10px;
+    padding: 8px 10px 20px 10px;
+    min-height: auto
+  }
+  #strixpro-wrap #PN61T-applications ul.line_box.blue_style{
+    margin-top: 20px
+  }
+  #strixpro-wrap #PN61T-applications ul.line_box.blue_style li{
+    width: 24%;
+    margin: 0 0.5% 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #strixpro-wrap #PN61T-applications{
+    padding-top: 50px
+  }
+  #strixpro-wrap #PN61T-applications ul.line_box li{
+    margin: 0 0 10px;
+    width: 100%
+  }
+  #strixpro-wrap #PN61T-applications ul.line_box.blue_style li{
+    width: 49%;
+    margin: 0 0.5% 10px;
+  }
+}
+
+/*PN61T-enhanced*/
+#strixpro-wrap #PN61T-enhanced {
+    background: #fff;
+    padding-top: 100px;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 0px
+}
+#strixpro-wrap #PN61T-enhanced a{
+      color: rgb(0, 178, 220);
+}
+#strixpro-wrap #PN61T-enhanced .mainsize{
+  max-width: 1200px
+}
+#strixpro-wrap #PN61T-enhanced img{
+    padding: 0px 18px 0;
+    margin: 0 auto
+}
+#strixpro-wrap #PN61T-enhanced .mainfull img{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+#strixpro-wrap #PN61T-enhanced ul.txt_box{
+  display: inline-block;
+  width: 100%;
+}
+#strixpro-wrap #PN61T-enhanced ul.txt_box li{
+      display: inline-block;
+    float: left;
+    width: calc(33% - 20px);
+    margin: 0 10px;
+}
+#strixpro-wrap #PN61T-enhanced ul.txt_box li p.line_box_title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#strixpro-wrap #PN61T-enhanced ul.txt_box li p.line_box_info {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+#strixpro-wrap #PN61T-enhanced ul.txt_box li p.line_box_info b{
+      line-height: 1.6;
+    margin: 10px 0;
+    display: inline-block;
+}
+#strixpro-wrap #PN61T-enhanced ul.txt_box li ul{
+  display: inline-block;
+  margin: 10px 0;
+  padding-left: 20px;
+  width: calc(100% - 20px);
+}
+#strixpro-wrap #PN61T-enhanced ul.txt_box li ul li{
+    width: 100%;
+    line-height: 1.4;
+    margin: 5px 0 0;
+    display: list-item;
+  list-style-type: disc
+}
+@media only screen and (max-width: 1200px) {
+  #strixpro-wrap #PN61T-enhanced ul.txt_box{
+    margin-top: 20px;
+    padding: 0
+  }
+  #strixpro-wrap #PN61T-enhanced ul.txt_box li{
+    width: 31%;
+    margin: 0 1% 10px;
+    padding: 8px 0;
+    min-height: auto
+  }
+}
+@media only screen and (max-width: 768px) {
+  #strixpro-wrap #PN61T-enhanced{
+    padding-top: 50px
+  }
+  #strixpro-wrap #PN61T-enhanced ul.txt_box li{
+    margin: 0 0 10px;
+    width: 100%
+  }
+  #strixpro-wrap #PN61T-enhanced ul.txt_box li ul li{
+    margin: 0;
+    padding: 0
+  }
+}
+/*PN61T-further*/
+#strixpro-wrap #PN61T-further {
+    background: #fff;
+    padding-top: 100px;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 50px
+}
+#strixpro-wrap #PN61T-further .mainsize{
+  max-width: 1200px
+}
+#strixpro-wrap #PN61T-further img{
+    padding: 0px 18px 0;
+    margin: 0 auto
+}
+#strixpro-wrap #PN61T-further .mainfull img{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+#strixpro-wrap #PN61T-further ul.txt_box{
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+}
+#strixpro-wrap #PN61T-further ul.txt_box li{
+      display: inline-block;
+    float: left;
+    width: calc(33% - 20px);
+    margin: 0 10px;
+}
+#strixpro-wrap #PN61T-further ul.txt_box li img{
+  padding: 0;
+  margin-bottom: 20px
+}
+#strixpro-wrap #PN61T-further ul.txt_box li p.line_box_title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#strixpro-wrap #PN61T-further ul.txt_box li p.line_box_info {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+#strixpro-wrap #PN61T-further ul.txt_box li ul{
+  display: inline-block;
+  padding-left: 20px;
+  width: calc(100% - 20px);
+}
+#strixpro-wrap #PN61T-further ul.txt_box li ul li{
+    width: 100%;
+    line-height: 1.4;
+    margin: 5px 0 0;
+    display: list-item;
+  list-style-type: disc
+}
+
+@media only screen and (max-width: 1200px) {
+  #strixpro-wrap #PN61T-further ul.txt_box{
+    margin-top: 20px;
+    padding: 0
+  }
+  #strixpro-wrap #PN61T-further ul.txt_box li{
+    width: 31%;
+    margin: 0 1% 20px;
+    padding: 0;
+    min-height: auto
+  }
+}
+@media only screen and (max-width: 768px) {
+  #strixpro-wrap #PN61T-further{
+    padding-top: 50px
+  }
+  #strixpro-wrap #PN61T-further ul.txt_box li{
+    margin: 0 0 30px;
+    width: 100%
+  }
+}
+/*PN61T-storagedesign*/
+#strixpro-wrap #PN61T-storagedesign {
+    background: url(../images/storagedesign.jpg) center top/1920px no-repeat;
+    min-height: 1088px;
+    text-align: center
+}
+#strixpro-wrap #PN61T-storagedesign a{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 400px;
+}
+#strixpro-wrap #PN61T-storagedesign a img{
+    width: 100%;
+    max-width: 303px;
+}
+#strixpro-wrap #PN61T-storagedesign .mainfull .maintitle{
+    max-width: 1200px;
+    margin: 0;
+    padding-top: 100px;
+    position: absolute;
+    right: 1%;
+    width: 68%;
+}
+#strixpro-wrap #PN61T-storagedesign .mainfull .maintitle .info{
+  width: 80%;
+}
+#strixpro-wrap #PN61T-storagedesign .mainfull .maintitle .h_left{
+  width: 75%;
+  float: left;
+}
+#strixpro-wrap #PN61T-storagedesign .mainfull .maintitle .h_right{
+  width: 25%;
+  float: left;
+  text-align: left;
+}
+#strixpro-wrap #PN61T-storagedesign .mainfull .maintitle .h_right img{
+  width: 100%;
+  max-width: 255px !important;
+}
+#strixpro-wrap #PN61T-storagedesign .mainfull .chart_area{
+    max-width: 900px;
+    margin: 0;
+    padding-top: 500px;
+    position: absolute;
+    right: 0;
+    width: 45%;
+    text-align: left;
+    padding-right: 5%
+}
+#strixpro-wrap #PN61T-storagedesign .mainfull .chart_area p.note{
+    color: #666;
+    text-align: left;
+    position: absolute;
+    left: 0%;
+    padding-right: 5%;
+    margin-top: -20px;
+}
+/*PN61T-csm*/
+#strixpro-wrap #PN61T-csm {
+    background: url(../images/bg_csm.jpg) center top/1920px no-repeat;
+    min-height: 1030px;
+    text-align: center
+}
+#strixpro-wrap #PN61T-csm a{
+    display: inline-block;
+    margin: 0 auto;
+    color: #00b2dc;
+    text-decoration: underline;
+}
+#strixpro-wrap #PN61T-csm a img{
+    width: 100%;
+    max-width: 303px;
+}
+#strixpro-wrap #PN61T-csm .mainfull .maintitle{
+    width: 40%;
+    margin: 0 3%;
+    padding-top: 200px;
+}
+#strixpro-wrap #PN61T-csm .mainfull .maintitle .info{
+  width: 100%;
+}
+#strixpro-wrap #PN61T-csm .csm_table{
+  margin: 0 3%;
+  padding: 0 18px;
+  margin-top: 150px;
+  margin-bottom: 150px
+}
+#strixpro-wrap #PN61T-csm .csm_table table{
+  border: #dbdbdb 1px solid
+}
+#strixpro-wrap #PN61T-csm .csm_table table th,
+#strixpro-wrap #PN61T-csm .csm_table table td{
+  text-align: center;
+  padding: 8px 0;
+  border: #dbdbdb 1px solid;
+  background: #fff;
+  color: #000;
+  font-family: "SF UI Display Thin", "Myriad Pro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+#strixpro-wrap #PN61T-csm .csm_table table th{
+  background: #00b2dc;
+  color: #fff;
+}
+#strixpro-wrap #PN61T-csm .csm_table table td p{
+  margin-bottom: 0;
+  color: #00b2dc;
+  font-size: 15px
+}
+/*PN61T-04*/
+#strixpro-wrap #PN61T-04{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px
+}
+#strixpro-wrap #PN61T-04 img{
+  padding-top: 0px;
+  margin: 0 auto
+}
+/*PN61T-raid*/
+#strixpro-wrap #PN61T-raid{
+    background: #f3f3f3;
+    padding: 150px 0
+}
+#strixpro-wrap #PN61T-raid .mainfull{
+    padding: 0 18px
+}
+#strixpro-wrap #PN61T-raid .mainfull img{
+    padding-top: 100px
+}
+#strixpro-wrap #PN61T-raid .mainfull p.note{
+    font-size: 12px !important;
+    text-align: left;
+}
+/*VC68-a05*/
+#strixpro-wrap #PN61T-a05{
+  background: #fff;
+  padding: 50px 0 0;
+}
+#strixpro-wrap #PN61T-a05 .maintitle.a05_maintitle{
+  padding: 50px 0 100px
+}
+#strixpro-wrap #PN61T-a05 .maintitle{
+  padding: 0;
+  margin:0;
+}
+#strixpro-wrap #PN61T-a05 .maintitle.lefttxt{
+  padding-top: 50px
+}
+#strixpro-wrap #PN61T-a05 .maintitle.lefttxt .info_left{
+  padding-right: 10px
+}
+#strixpro-wrap #PN61T-a05 .maintitle.lefttxt .info_right{
+  padding-left: 10px
+}
+#strixpro-wrap #PN61T-a05 .mainfull img{
+  margin: 50px auto
+}
+/*#strixpro-wrap #PN61T-05*/
+#strixpro-wrap #PN61T-05{
+    padding: 150px 0 150px;
+    background: #303030
+}
+#strixpro-wrap #PN61T-05 ul{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+#strixpro-wrap #PN61T-05 ul li{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+#strixpro-wrap #PN61T-05 img{
+    height: 100%;
+}
+#strixpro-wrap #PN61T-05 .mainsize{
+  max-width: 1100px;
+  padding-bottom: 50px
+}
+#strixpro-wrap #PN61T-05 .maintitle .mtitle p{
+  letter-spacing: -0.02em;
+  color: #00b2dc !important
+}
+#strixpro-wrap #PN61T-05 .maintitle.lefttxt{
+  margin-bottom: 0
+}
+#strixpro-wrap #PN61T-05 .maintitle.lefttxt .info_left{
+  width: 65%;
+}
+#strixpro-wrap #PN61T-05 .maintitle.lefttxt .info_right{
+  margin: 0px 0px 0px 65%;
+}
+#strixpro-wrap #PN61T-05 .maintitle.lefttxt .info_right ul li img{
+  vertical-align: baseline;
+}
+#strixpro-wrap #PN61T-05 .maintitle.lefttxt .info_right ul li a{
+    display: inline-block;
+    margin: 0 auto;
+    color: #00b2dc;
+    text-decoration: underline;
+}
+#strixpro-wrap #PN61T-05 .notearea{
+  position: relative;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#strixpro-wrap #PN61T-05 .notearea p.note{
+  color: #afafaf;
+  text-align: left;
+  position: absolute;
+  left: 28%;
+  margin-top: -30px;
+  padding-right: 5%;
+}
+/*PN61T-06*/
+#strixpro-wrap #PN61T-06{
+    text-align: center;
+    padding: 100px 0 150px
+}
+#strixpro-wrap #PN61T-06 ul{
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+#strixpro-wrap #PN61T-06 ul li{
+    display: inline-block;
+    width: 33%;
+    border-right: 1px #00b2dc solid;
+}
+#strixpro-wrap #PN61T-06 ul li:last-child {
+    border: none;
+}
+#strixpro-wrap #PN61T-06 ul li h3{
+    color: #00b2dc;
+    font-size: 100px;
+    font-family: "SF UI Display Thin", "Myriad Pro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+#strixpro-wrap #PN61T-06 ul li h3 b{
+  font-size: 80px;
+  font-family: "SF UI Display Thin", "Myriad Pro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+#strixpro-wrap #PN61T-06 ul li p{
+    color: #00b2dc;
+    font-size: 18px;
+    font-family: "SF UI Display Thin", "Myriad Pro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    width: 100%;
+    display: block;
+    line-height: 1em;
+    font-weight: 500;
+}
+#strixpro-wrap #PN61T-06 ul li:last-child{
+    border: none
+}
+
+/*PN61T-12*/
+#strixpro-wrap #PN61T-12{
+    padding: 110px 0 50px !important;
+    text-align: center;
+    background: #fff
+}
+#strixpro-wrap #PN61T-12 a.learnmore{
+    color: #323232;
+    border-bottom: 1px #323232 solid;
+    padding: 2px 0 2px;
+}
+#strixpro-wrap #PN61T-12 ul{
+    display: inline-block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px 0 100px
+}
+#strixpro-wrap #PN61T-12 ul li{
+    display: inline-block;
+    width: 15%;
+    padding: 0 10px;
+    vertical-align: top;
+}
+#strixpro-wrap #PN61T-12 ul li.pn61t_12_ico01{
+    width: 16%
+}
+#strixpro-wrap #PN61T-12 ul li.pn61t_12_ico05{
+    width: 20%
+}
+html #strixpro-wrap #PN61T-12 ul li img{
+    width: 100%;
+    max-width: 210px !important
+}
+html #strixpro-wrap #PN61T-12 ul li.pn61t_12_ico05 img{
+    max-width: 276px !important
+}
+#strixpro-wrap #PN61T-12 ul li.pn61t_12_ico01 img{
+     max-width: 229px !important
+}
+#strixpro-wrap #PN61T-12 ul li p{
+    color: #3a3a3a;
+    font-size: 20px;
+    font-family: "SF UI Display Thin", "Myriad Pro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    width: 100%;
+    display: block;
+    line-height: 1.2em;
+    font-weight: 500;
+    margin: 20px auto;
+}
+#strixpro-wrap #PN61T-12 .mtitle p{
+  letter-spacing: -0.01em
+}
+
+#strixpro-wrap ul.line_box{
+  display: inline-block;
+  width: 100%;
+  margin: 20px auto;
+}
+#strixpro-wrap ul.line_box li{
+  width: 48%;
+  margin: 1%;
+  padding: 15px;
+  border: 1px #00b2dc solid;
+  float: left; 
+  border-radius: 10px;
+  min-height: 115px;
+  text-align: center
+}
+#strixpro-wrap ul.line_box li p.line_box_title{
+  color:#00b2dc;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px
+}
+#strixpro-wrap ul.line_box li p.line_box_info{
+  margin-bottom: 0;
+  font-size: 15px
+}
+@media only screen and (max-width: 1440px) {
+  #strixpro-wrap ul.line_box li p.line_box_title{
+    font-size: 24px
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #strixpro-wrap ul.line_box li{
+    padding: 8px 10px 20px 10px;
+    min-height: 105px;
+  }
+  #strixpro-wrap ul.line_box li p.line_box_title{
+    font-size: 20px
+  }
+}
+@media only screen and (max-width: 768px) {
+  #strixpro-wrap ul.line_box li{
+    width: 100%;
+    min-height: inherit;
+  }
+}
+#strixpro-wrap ul.line_box.blue_style li{
+  background: #00b2dc;
+}
+#strixpro-wrap ul.line_box.blue_style li p{
+  color: #fff
+}
+/* 左文右圖 */
+#strixpro-wrap .maintitle.lefttxt {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 60px;
+}
+#strixpro-wrap .maintitle.lefttxt .info_left {
+    float: left;
+    margin: 0px -100% 0px 0px;
+    position: relative;
+    width: 50%;
+    text-align: left !important
+}
+#strixpro-wrap .maintitle.lefttxt .info_left .mtitle,
+#strixpro-wrap .maintitle.lefttxt .info_left .mtitle p, 
+#strixpro-wrap .maintitle.lefttxt .info_left .info, 
+#strixpro-wrap .maintitle.lefttxt .info_left .info p, 
+#strixpro-wrap .maintitle.lefttxt .info_right .mtitle,
+#strixpro-wrap .maintitle.lefttxt .info_right .mtitle p {
+    text-align: left !important;
+    padding: 0;
+    width: 100% !important;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+#strixpro-wrap .maintitle.lefttxt .info_right {
+    margin: 0px 0px 0px 50%;
+    position: relative;
+    /*width: 100%;*/
+}
+#strixpro-wrap .maintitle.lefttxt .info_left .stitle,
+#strixpro-wrap .maintitle.lefttxt .info_left .stitle p,
+#strixpro-wrap .maintitle.lefttxt .info_left .info,
+#strixpro-wrap .maintitle.lefttxt .info_left .info p{
+    text-align: left !important;
+    margin-left: 0 !important;
+}
+/* 左圖右文 */
+#strixpro-wrap .maintitle.righttxt {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+#strixpro-wrap .maintitle.righttxt .info_left {
+    float: left;
+    margin: 0px -100% 0px 0px;
+    position: relative;
+    width: 50%;
+}
+#strixpro-wrap .maintitle.righttxt .info_left .mtitle, 
+#strixpro-wrap .maintitle.righttxt .info_left .mtitle p, 
+#strixpro-wrap .maintitle.righttxt .info_left .info, 
+#strixpro-wrap .maintitle.righttxt .info_left .info p, 
+#strixpro-wrap .maintitle.righttxt .info_right .mtitle, 
+#strixpro-wrap .maintitle.righttxt .info_right .mtitle p {
+    text-align: left !important;
+    padding: 0;
+    width: 100% !important;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+#strixpro-wrap .maintitle.righttxt .info_right {
+    margin: 0px 0px 0px 50%;
+    position: relative;
+    text-align: left;
+    /*width: 100%;*/
+}
+#strixpro-wrap .maintitle.righttxt .info_right .stitle,
+#strixpro-wrap .maintitle.righttxt .info_right .stitle p,
+#strixpro-wrap .maintitle.righttxt .info_right .info,
+#strixpro-wrap .maintitle.righttxt .info_right .info p{
+    text-align: left !important;
+    margin-left: 0 !important;
+}
+p.note{
+    font-size: 14px !important;
+    color: #000;
+    line-height: 1.5em;
+    /*clear: both;*/
+}
+p.note02{
+    font-size: 14px !important;
+    line-height: 1.5em;
+    color:#000;
+    padding-top: 703px;
+    padding-left: 44%;
+    text-align: left;
+    width: 94%;
+}
+.whiteBg p.note{
+    color: #fff;
+}
+@media (max-width: 959px) {
+    #strixpro-wrap .overview-wrapper {
+        width: 100%;
+        padding: 3em 0;
+    }
+   
+}
+/*平板*/
+
+@media (min-width: 719px) and (max-width: 959px) {
+    #strixpro-wrap .mainsize .maintitle .info, #strixpro-wrap .mainfull .maintitle .info{
+        text-align: left;
+        width: 100%
+    }
+    .full-inner {
+        width: 96%;
+        box-sizing: border-box;
+    }
+    #sectionOverview {
+        height: auto;
+        /*依造內容多少去決定高度*/
+    }
+    .full-section {
+        height: auto;
+        /*一個滿版區塊的高度，可以依造圖片給的高度去改變*/
+    }
+    #strixpro-wrap #PN61T-kv .mainfull .maintitle{
+      width: 69%;
+      left: 2%;
+      padding-top: 30px
+    }
+    #strixpro-wrap #PN61T-kv .mainfull .maintitle .mtitle p{
+      text-align: left;
+    }
+    /*PN61T-02*/
+    #strixpro-wrap #PN61T-storagedesign .mainfull .maintitle{
+      width: 84%;
+      padding-top: 50px
+    }
+    #strixpro-wrap #PN61T-storagedesign a {
+        margin-top: 200px;
+    }
+    #strixpro-wrap #PN61T-storagedesign .mainfull .maintitle .h_left{
+      width: 100%;
+      float: right;
+    }
+    #strixpro-wrap #PN61T-storagedesign .mainfull .maintitle .h_right{
+      width: 100%;
+      float: right;
+      text-align: center;
+    }
+    #strixpro-wrap #PN61T-storagedesign .mainfull .maintitle .info{
+      width: 100%
+    }
+    #strixpro-wrap #PN61T-storagedesign .mainfull .chart_area{
+      padding-top: 640px;
+    }
+
+    /*PN61T-04*/
+    #strixpro-wrap #PN61T-04 ul{
+        padding: 50px 0;
+    }
+    #strixpro-wrap #PN61T-04 ul li{
+        display: inline-block;
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px #cacaca solid;
+        padding: 50px 0
+    }
+    /*PN61T-05*/
+    #strixpro-wrap #PN61T-05 ul{
+        padding: 10px 0;
+    }
+    #strixpro-wrap #PN61T-05 ul li{
+        display: inline-block;
+        width: 48%;
+        text-align: center;
+        padding: 0
+    }
+    #strixpro-wrap #PN61T-05 .maintitle.lefttxt .info_left{
+        width: 100%;
+        margin: 0;
+    }
+    #strixpro-wrap #PN61T-05 .maintitle.lefttxt .info_right{
+      margin: 0;
+      float: left;
+      width: 100%;
+    }
+    #strixpro-wrap #PN61T-05 .notearea{
+      padding: 0 18px
+    }
+    #strixpro-wrap #PN61T-05 .notearea p.note{
+      margin: 20px 0 0;
+      left: 0;
+      position: relative;
+    }
+    /*PN61T-06*/
+    #strixpro-wrap #PN61T-06 ul{
+        width: 100%;
+        padding: 50px 0;
+    }
+    #strixpro-wrap #PN61T-06 ul li{
+        display: inline-block;
+    width: auto;
+    border: none;
+    max-width: 300px;
+    padding: 30px 20px 20px;
+    }
+    /*PN61T-12*/
+    #strixpro-wrap #PN61T-12 ul{
+        padding: 50px 0;
+    }
+    #strixpro-wrap #PN61T-12 {
+        padding-bottom: 50px !important;
+    }
+    
+}
+/*手機*/
+
+@media (max-width: 719px) {
+    #strixpro-wrap .mainfull .maintitle .info{
+        width: 100% !important;
+        margin-bottom: 1em !important;
+        text-align: left;
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    /* special-sectionOverview #PN61T_nav-nav */
+    #strixpro-wrap #PN61T-nav{
+        display: none;
+    }
+    #strixpro-wrap .mainsize .maintitle .info, #strixpro-wrap .mainfull .maintitle .info{
+        text-align: left;
+    }
+    #strixpro-wrap img.webstyle,
+    #strixpro-wrap .webstyle {
+        display: none;
+    }
+    #strixpro-wrap img.mobile,
+    #strixpro-wrap .mobile {
+        width: 100%;
+        display: block;
+    }
+    #strixpro-wrap .overview-wrapper{
+        padding: 2em 3%;
+        width: 94% !important
+    }
+    .full-inner {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #sectionOverview {
+        height: auto;
+    }
+    #strixpro-wrap {
+        position: static;
+    }
+    .full-section {
+        border-bottom: 1px solid #ccc;
+        background-size: contain;
+        background-position: center bottom;
+        height: auto;
+        /*一個滿版區塊的高度，可以依造圖片給的高度去改變*/
+    }
+    .full-section:first-child {
+        border-top: 1px solid #ccc;
+    }
+    .full-section:last-child {
+        border-bottom: 0px solid #ccc;
+    }
+    #strixpro-wrap .maintitle .info, #strixpro-wrap .maintitle .mtitle {
+        margin: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    #strixpro-wrap .mtitle p{
+        width: 100% !important;
+        text-shadow: none;
+        font-size: 34px;
+        text-align: left;
+        line-height: 1.2em;
+        color: #00b2dc;
+        margin-bottom: 0;
+        padding: 15px 0 0
+    }
+    #strixpro-wrap .stitle p{
+        width: 100% !important;
+        text-shadow: 0px 0px 0px #fff;
+        font-size: 1.5em;
+        text-align: left;
+        line-height: 1.2em;
+        color: #000;
+        margin-bottom: 0px;
+        padding: 0
+    }
+    #strixpro-wrap .mainsize .maintitle .info {
+        width: 100% !important;
+        margin-bottom: 1em !important;
+        text-align: left;
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    #strixpro-wrap .maintitle .mtitle {
+        padding-top: 0 !important;
+    }
+    #strixpro-wrap .maintitle .info{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        width: 100% !important;
+    }
+    /* 左文右圖 */
+    #strixpro-wrap .maintitle.lefttxt .info_left {
+        margin: 0 !important;
+        padding: 0px 0  px !important;
+        width: 100% !important;
+        display: inline-block
+    }
+    #strixpro-wrap .maintitle.lefttxt .info_right {
+        margin: 0 !important;
+        padding: 0px 0  px !important;
+        width: 100% !important;
+        display: inline-block
+    }
+    /* 左圖右文 */
+    #strixpro-wrap .maintitle.righttxt .info_left {
+        margin: 0 !important;
+        padding: 0px 0px !important;
+        width: 100% !important;
+        display: inline-block
+    }
+    #strixpro-wrap .maintitle.righttxt .info_right {
+        margin: 0 !important;
+        padding: 0px 0px !important;
+        width: 100% !important;
+        display: inline-block
+    }
+
+     /**/
+    #strixpro-wrap #PN61T-Upgrade{
+        padding: 50px 0 !important
+    }
+    #strixpro-wrap #PN61T-Upgrade .onesize_icon_ul{
+        padding-bottom: 50px;
+        margin-bottom: 0
+    }
+    #strixpro-wrap #PN61T-Upgrade .onesize_icon_ul li {
+        margin-bottom: 20px;
+        width: 49%
+    }
+    #strixpro-wrap #PN61T-Upgrade img{
+        padding: 30px 0 0;
+    }
+    /**/
+    #strixpro-wrap #PN61T-csm{
+      background: none;
+      min-height: inherit;
+      height: auto;
+    }
+    #strixpro-wrap #PN61T-csm .mainfull .maintitle{
+      width: 100%;
+      margin: 0;
+      padding: 0 18px
+    }
+    #strixpro-wrap #PN61T-csm .csm_table{
+      width: 100%;
+      margin: 0 0 50px;
+      padding: 0 18px
+    }
+    /**/
+    #strixpro-wrap #PN61T-dualstorage{
+      background: none;
+      min-height: inherit;
+      height: auto;
+    }
+    #strixpro-wrap #PN61T-dualstorage .maintitle{
+      padding: 0 0 50px
+    }
+    #strixpro-wrap #PN61T-dualstorage img{
+      margin: 0 ;
+    }
+    /**/
+    #strixpro-wrap #PN61T-saving{
+      background: #000;
+      min-height: inherit;
+      height: auto;
+    }
+    #strixpro-wrap #PN61T-saving ul li{
+      width: 100%
+    }
+    #strixpro-wrap #PN61T-saving ul{
+      padding: 0
+    }
+    /*#PN61T-storagedesign*/
+    #strixpro-wrap #PN61T-storagedesign {
+        background: #f0f0f0;
+        min-height: inherit;
+        height: auto;
+        padding: 0 0 50px
+    }
+    #strixpro-wrap #PN61T-storagedesign .mainfull .maintitle{
+      width: 100%;
+      padding-top: 30px;
+      position: relative;
+      display: inline-block;
+    }
+    #strixpro-wrap #PN61T-storagedesign .mainfull .chart_area{
+      width: 100%;
+      padding: 10px 18px;
+      position: relative;
+      display: inline-block;
+    }
+    #strixpro-wrap #PN61T-storagedesign .mainfull .chart_area p.note{
+      position: relative;
+      margin-top: 20px
+    }
+    #strixpro-wrap #PN61T-storagedesign .mainfull .maintitle .info{
+      margin-bottom: 0 !important
+    }
+    #strixpro-wrap #PN61T-storagedesign .mainfull .maintitle .h_left{
+      width: 100%;
+      float: left;
+    }
+    #strixpro-wrap #PN61T-storagedesign .mainfull .maintitle .h_right{
+      width: 100%;
+      float: left;
+      text-align: center;
+    }
+    /**/
+    #strixpro-wrap #PN61T-raid{
+        padding: 50px 0 !important;
+    }
+    /*PN61T-kv*/
+    #strixpro-wrap #PN61T-kv{
+      background: #fff;
+      min-height: auto
+    }
+    #strixpro-wrap #PN61T-kv .mainfull .maintitle{
+      position: relative;
+      left: 0;
+      width: 100%;
+      padding: 0 18px 50px;
+    }
+    /*#PN61T-05*/
+    #strixpro-wrap #PN61T-05 ul{
+        padding: 10px 0;
+    }
+    #strixpro-wrap #PN61T-05 ul li{
+        display: inline-block;
+        width: 48%;
+        text-align: center;
+        padding: 0
+    }
+    #strixpro-wrap #PN61T-05 .maintitle.lefttxt .info_left{
+        width: 100%;
+        margin: 0;
+    }
+    #strixpro-wrap #PN61T-05 .maintitle.lefttxt .info_right{
+      margin: 0;
+      float: left;
+      width: 100%;
+    }
+    #strixpro-wrap #PN61T-05 .notearea{
+      padding: 0 18px;
+    }
+    #strixpro-wrap #PN61T-05 .notearea p.note{
+      margin: 20px 0 0;
+      left: 0;
+      position: relative;
+    }
+    /**/
+    #strixpro-wrap #PN61T-a05{
+      padding-top: 50px
+    }
+    #strixpro-wrap #PN61T-a05 .mainfull img{
+      padding-top: 0px;
+      margin: 0
+    }
+
+    #strixpro-wrap #PN61T-a05 .maintitle.lefttxt{
+      padding-top: 0
+    }
+    #strixpro-wrap #PN61T-a05 .maintitle.a05_maintitle{
+      padding: 50px 0
+    }
+    #strixpro-wrap #PN61T-raid .mainfull p.note{
+        padding: 50px 0
+    }
+    #strixpro-wrap #PN61T-raid .mainfull img{
+        display: none;
+    }
+    #strixpro-wrap #PN61T-raid .mainfull.mobile img{
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px
+    }
+    
+    #strixpro-wrap #PN61T-a05 .connectivity_area .connectivity_bg{
+      position: relative;
+      opacity: 1;
+      width: 100%;
+      float: left;
+    }
+    #strixpro-wrap #PN61T-a05 .connectivity_area.on .circle-1,
+    #strixpro-wrap #PN61T-a05 .connectivity_area.on .circle-2,
+    #strixpro-wrap #PN61T-a05 .connectivity_area.on .circle-3,
+    #strixpro-wrap #PN61T-a05 .connectivity_area.on .circle-4,
+    #strixpro-wrap #PN61T-a05 .connectivity_area.on .circle-5,
+    #strixpro-wrap #PN61T-a05 .connectivity_area.on .circle-6{
+      -webkit-animation-name: none;
+      animation-name: none;
+    }
+    #strixpro-wrap #PN61T-a05 .maintitle.lefttxt .info_left,
+    #strixpro-wrap #PN61T-a05 .maintitle.lefttxt .info_right{
+      padding: 0
+    }
+    #strixpro-wrap #PN61T-04 img{
+      padding: 0
+    }
+    /*PN61T-06*/
+    #strixpro-wrap #PN61T-06{
+      background: none;
+      min-height: inherit;
+      height: auto;;
+        padding: 0px 0 50px !important
+    }
+    #strixpro-wrap #PN61T-06 .mainsize .maintitle{
+        padding-top: 0px
+    }
+    #strixpro-wrap #PN61T-06 ul{
+        width: 90%;
+        padding: 0 0 50px
+    }
+    #strixpro-wrap #PN61T-06 ul li{
+        display: inline-block;
+    width: auto;
+    border: none;
+    max-width: 300px;
+    padding: 30px 20px 20px;
+    }
+    /*PN61T-08*/
+    #strixpro-wrap #PN61T-08 .mainfull img{
+        display: none;
+    }
+    #strixpro-wrap #PN61T-08 .mainfull img.phone{
+        display: block;
+        width: 100%;
+        max-width: 720px !important;
+        padding: 0
+    }
+    /*PN61T-09*/
+    #strixpro-wrap #PN61T-09 {
+        padding: 50px 0 !important;
+    }
+    html #strixpro-wrap #PN61T-09 .mainfull .info_right img{
+        padding: 20px 0 0
+    }
+    #strixpro-wrap #PN61T-09 .mainfull .lefttxt .info_right{
+        border: none;
+        border-top: 1px #e8e8e8 solid;
+    }
+    /**/
+    #strixpro-wrap #PN61T-10{
+        padding: 50px 0 0 !important;
+    }
+    #strixpro-wrap #PN61T-10 ul.section_tab_ul li{
+      width: 90%;
+    margin: 10px 0;
+    }
+    #strixpro-wrap #PN61T-10 ul.section_tab_ul li a{
+      width: 100%
+    }
+    #strixpro-wrap #PN61T-10 ul.section_tab_ul li a p{
+      min-width: inherit;
+      width: 100%
+    }
+    /*PN61T-12*/
+    #strixpro-wrap #PN61T-12 {
+        padding: 50px 0 !important;
+    }
+    #strixpro-wrap #PN61T-12 ul{
+        width: 100%;
+        padding-top: 0px
+    }
+    #strixpro-wrap #PN61T-12 ul li, #strixpro-wrap #PN61T-12 ul li.pn61_12_ico05{
+        width: 100% !important
+    }
+    html #strixpro-wrap #strixpro-wrap #PN61T-12 ul li img{
+        width: 50%
+    }
+    /**/
+    html #strixpro-wrap .info a{
+        display: inline-block;
+    }
+    html #strixpro-wrap .righttxt .info_right .info{
+        width: 100% !important;
+        
+    }
+}
+
+/* nav bar */
+#strixpro-wrap #PN61T-nav {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    margin-top: -11.6875em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 10px;
+    z-index: 9999
+}
+
+#strixpro-wrap #PN61T-nav ul {
+        list-style: none;
+    display: block;
+    margin: 0;
+}
+
+#strixpro-wrap #PN61T-nav ul li {
+        position: relative;
+    width: auto;
+    height: auto;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    margin: 0;
+    display: inline-block;
+}
+#strixpro-wrap #PN61T-nav ul li a{
+        display: inline-block;
+    width: 8px;
+    position: absolute;
+    padding: 15px;
+    height: 8px;
+    z-index: 9999;
+}
+#strixpro-wrap #PN61T-nav ul li div {
+    width: 8px;
+    height: 8px;
+    overflow: hidden;
+    margin-left: auto;
+    background: #C8C8C8;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    box-shadow: inset 0 0 1px #777;
+    display: inline-block;
+    position: relative;
+}
+
+#strixpro-wrap #PN61T-nav ul li b {
+    display: none;
+    position: absolute;
+    top: 60%;
+    margin-top: -12px;
+    right: 40px;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #00b2dc;
+    font-weight: 600;
+    line-height: 1;
+    font-family: "Myriadpro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "å¾®è»Ÿæ­£é»‘é«”", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+#strixpro-wrap #PN61T-nav ul li.on b, #strixpro-wrap #PN61T-nav ul li.active b{
+    top: 80%
+}
+
+#strixpro-wrap #PN61T-nav ul li:hover b {
+    display: inline-block; !important;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    width: auto;
+}
+
+#strixpro-wrap #PN61T-nav ul li:hover div {
+    background: #00b2dc
+}
+
+#strixpro-wrap #PN61T-nav ul li.active {
+    height: 30px !important
+}
+
+ #strixpro-wrap #PN61T-nav ul li.active div {
+    background: #00b2dc;
+    height: 30px !important;
+    top: 5px;
+}
+
+@-moz-keyframes breathing {
+    0%,
+    2%,
+    98%,
+    100% {
+        opacity: 1;
+        -moz-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1)
+    }
+    48%,
+    52% {
+        opacity: .3;
+        -moz-transform: scale(0.8, 0.8);
+        transform: scale(0.8, 0.8)
+    }
+}
+
+@-webkit-keyframes breathing {
+    0%,
+    2%,
+    98%,
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1)
+    }
+    48%,
+    52% {
+        opacity: .3;
+        -webkit-transform: scale(0.8, 0.8);
+        transform: scale(0.8, 0.8)
+    }
+}
+
+@-o-keyframes breathing {
+    0%,
+    2%,
+    98%,
+    100% {
+        opacity: 1;
+        -o-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1)
+    }
+    48%,
+    52% {
+        opacity: .3;
+        -o-transform: scale(0.8, 0.8);
+        transform: scale(0.8, 0.8)
+    }
+}
+
+@-ms-keyframes breathing {
+    0%,
+    2%,
+    98%,
+    100% {
+        opacity: 1;
+        -ms-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1)
+    }
+    48%,
+    52% {
+        opacity: .3;
+        -ms-transform: scale(0.8, 0.8);
+        transform: scale(0.8, 0.8)
+    }
+}
+
+@keyframes breathing {
+    0%,
+    2%,
+    98%,
+    100% {
+        opacity: 1;
+        transform: scale(1.1, 1.1)
+    }
+    48%,
+    52% {
+        opacity: .3;
+        transform: scale(0.8, 0.8)
+    }
+}
+
+/*product-section*/
+#strixpro-wrap .product-section {
+  position: relative;
+  background-repeat: no-repeat;
+  /*height: 0;*/
+  overflow: hidden;
+}
+
+#strixpro-wrap .product-section:before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#strixpro-wrap .product-section .product-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#strixpro-wrap .product-section .maintitle {
+  position: absolute;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  z-index: 2;
+}
+#strixpro-wrap .product-content .maintitle .info {
+    font-family: "SF UI Display Thin", "Myriad Pro", "Helvetica", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1350px){
+  #strixpro-wrap .product-content .maintitle .info{
+    line-height: 1.4
+  }
+}
+@media only screen and (max-width: 1040px){
+  #strixpro-wrap .product-section .product-content {
+    margin-bottom: 50px
+  }
+}
+@media only screen and (max-width: 768px) {
+  #strixpro-wrap .product-section:before {
+    height: 0;
+  }
+  #strixpro-wrap .product-section {
+    overflow: auto;
+    height: auto;
+  }
+  #strixpro-wrap .product-section .product-content {
+    position: relative;
+    margin-bottom: 0px
+  }
+  #strixpro-wrap .product-section .maintitle {
+    position: relative;
+    text-align: center;
+    padding: 1.5em 5%;
+    width: auto;
+    left: auto;
+    top: auto;
+  }
+  #strixpro-wrap .product-content .maintitle .info{
+    text-align: left;
+  }
+}
+/*PN61T-header*/
+#strixpro-wrap #PN61T-header {
+  padding-top: 40.5%;
+}
+#strixpro-wrap #PN61T-header:before {
+  background-image: url("../images/pn61t_kv.jpg");
+  /*background-color: #000;*/
+  background-position: top center;
+  background-size: cover;
+}
+
+#strixpro-wrap #PN61T-header .maintitle {
+        top: 20%;
+    left: 5%;
+    transform: translate(0%, -20%);
+    width: 50%;
+    text-align: center;
+}
+#strixpro-wrap #PN61T-header .maintitle .mtitle{
+  text-align: center;
+}
+#strixpro-wrap #PN61T-header .maintitle .mtitle p{
+    /*width: auto;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto*/
+}
+#strixpro-wrap #PN61T-header .maintitle .info p{
+  max-width: 1500px
+}
+#strixpro-wrap #PN61T-header .stitle p{
+  letter-spacing: 0.1em;
+  font-size: 48px
+}
+
+#strixpro-wrap #PN61T-header .maintitle .youtube_b img{
+  width: 100%;
+  max-width: 300px !important
+}
+@media only screen and (max-width: 1440px) {
+  #strixpro-wrap #PN61T-header .mtitle p {
+    font-size: 38px;
+  }
+  #strixpro-wrap #PN61T-header .stitle p {
+    font-size: 34px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  #strixpro-wrap #PN61T-header .mtitle p {
+    font-size: 34px;
+  }
+  #strixpro-wrap #PN61T-header .stitle p {
+    font-size: 34px;
+  }
+  #strixpro-wrap #PN61T-header .maintitle{
+    top: 15%;
+    left: 3%;
+    transform: translate(0%, -15%);
+    width: 57%;
+  }
+  #strixpro-wrap #PN61T-header .maintitle .logo_group{
+    padding: 10px 0 15px
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #strixpro-wrap #PN61T-header img.mobile{
+    display: block !important;
+  }
+  #strixpro-wrap #PN61T-header:before {
+    background-image: none;
+    padding-top: 0%;
+  }
+  #strixpro-wrap #PN61T-header {
+    padding-top: 0%;
+    height: auto
+  }
+  #strixpro-wrap #PN61T-header .product-content {
+    position: relative;
+  }
+  #strixpro-wrap #PN61T-header .maintitle {
+    position: relative;
+    width: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin-left: 0;
+    padding: 50px 18px 50px;
+    transform: inherit;
+  }
+  #strixpro-wrap #PN61T-header .stitle p,
+  #strixpro-wrap #PN61T-header .info p{
+    text-align: left;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #strixpro-wrap #PN61T-header .mtitle p{
+    padding-top: 0
+  }
+  #strixpro-wrap #PN61T-header:before {
+    background-image: none;
+    padding-top: 0%;
+  }
+  #strixpro-wrap #PN61T-header {
+    padding-top: 0%;
+    padding-bottom: 0px
+  }
+  #strixpro-wrap #PN61T-header .product-content {
+    position: relative;
+  }
+  #strixpro-wrap #PN61T-header .maintitle {
+    width: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin-left: 0;
+    padding: 1.5em 5% ;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #strixpro-wrap #PN61T-header .maintitle {
+    padding-top: .5em;
+  }
+  #strixpro-wrap #PN61T-header .mtitle p {
+    font-size: 32px;
+  }
+  #strixpro-wrap #PN61T-header .stitle p {
+    font-size: 18px;
+  }
+}
+
+/*PN61T-01*/
+#strixpro-wrap #PN61T-01 {
+  padding-top: 44.3%;
+}
+#strixpro-wrap #PN61T-01:before {
+  background-image: url("../images/pn61t_01.jpg");
+  /*background-color: #000;*/
+  background-position: top center;
+  background-size: cover;
+}
+
+#strixpro-wrap #PN61T-01 .maintitle {
+    top: 50%;
+    left: 7%;
+    transform: translate(0%, -50%);
+    width: 45%;
+    text-align: center;
+}
+#strixpro-wrap #PN61T-01 .maintitle .mtitle{
+  text-align: center;
+}
+#strixpro-wrap #PN61T-01 .maintitle .mtitle p{
+    /*width: auto;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto*/
+}
+#strixpro-wrap #PN61T-01 .maintitle .info p{
+  max-width: 1500px
+}
+#strixpro-wrap #PN61T-01 .stitle p{
+  letter-spacing: 0.1em;
+  font-size: 48px
+}
+
+#strixpro-wrap #PN61T-01 .maintitle .youtube_b img{
+  width: 100%;
+  max-width: 300px !important
+}
+@media only screen and (max-width: 1440px) {
+  #strixpro-wrap #PN61T-01 .mtitle p {
+    font-size: 34px;
+  }
+  #strixpro-wrap #PN61T-01 .stitle p {
+    font-size: 34px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  #strixpro-wrap #PN61T-01 .mtitle p {
+    font-size: 34px;
+  }
+  #strixpro-wrap #PN61T-01 .stitle p {
+    font-size: 34px;
+  }
+  #strixpro-wrap #PN61T-01 .maintitle{
+    /* top: 15%;
+    left: 3%;
+    transform: translate(0%, -15%);
+    width: 57%; */
+  }
+  #strixpro-wrap #PN61T-01 .maintitle .logo_group{
+    padding: 10px 0 15px
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #strixpro-wrap #PN61T-01 img.mobile{
+    display: block !important;
+  }
+  #strixpro-wrap #PN61T-01:before {
+    background-image: none;
+    padding-top: 0%;
+  }
+  #strixpro-wrap #PN61T-01.whiteBg .mtitle p{
+    color: #00b2dc !important;
+  } 
+  #strixpro-wrap #PN61T-01.whiteBg .stitle p, 
+  #strixpro-wrap #PN61T-01.whiteBg .maintitle .info{
+    color: #000 !important
+  }
+  #strixpro-wrap #PN61T-01 {
+    padding-top: 0%;
+    height: auto
+  }
+  #strixpro-wrap #PN61T-01 .product-content {
+    position: relative;
+  }
+  #strixpro-wrap #PN61T-01 .maintitle {
+    position: relative;
+    width: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin-left: 0;
+    padding: 50px 18px 50px;
+    transform: inherit;
+  }
+  #strixpro-wrap #PN61T-01 .stitle p,
+  #strixpro-wrap #PN61T-01 .info p{
+    text-align: left;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #strixpro-wrap #PN61T-01 .mtitle p{
+    padding-top: 0
+  }
+  #strixpro-wrap #PN61T-01:before {
+    background-image: none;
+    padding-top: 0%;
+  }
+  #strixpro-wrap #PN61T-01 {
+    padding-top: 0%;
+    padding-bottom: 0px
+  }
+  #strixpro-wrap #PN61T-01 .product-content {
+    position: relative;
+  }
+  #strixpro-wrap #PN61T-01 .maintitle {
+    width: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin-left: 0;
+    padding: 1.5em 5% ;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #strixpro-wrap #PN61T-01 .maintitle {
+    padding-top: .5em;
+  }
+  #strixpro-wrap #PN61T-01 .mtitle p {
+    font-size: 32px;
+  }
+  #strixpro-wrap #PN61T-01 .stitle p {
+    font-size: 18px;
+  }
+}
+
+/*PN61T-02*/
+#strixpro-wrap #PN61T-02 {
+  padding-top: 43%;
+}
+#strixpro-wrap #PN61T-02:before {
+  background-image: url("../images/pn61t_02.jpg");
+  background-color: #fbfbfb;
+  background-position: bottom center;
+  background-size: 100%;
+}
+
+#strixpro-wrap #PN61T-02 .maintitle {
+    top: 50%;
+    left: 4%;
+    transform: translate(0%, -50%);
+    width: 54%;
+    text-align: center;
+}
+#strixpro-wrap #PN61T-02 .maintitle .mtitle{
+  text-align: center;
+}
+#strixpro-wrap #PN61T-02 .maintitle .mtitle p{
+    /*width: auto;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto*/
+}
+#strixpro-wrap #PN61T-02 .maintitle .info p{
+  max-width: 1500px
+}
+#strixpro-wrap #PN61T-02 .stitle p{
+  letter-spacing: 0.1em;
+  font-size: 48px
+}
+
+#strixpro-wrap #PN61T-02 .maintitle .youtube_b img{
+  width: 100%;
+  max-width: 300px !important
+}
+@media only screen and (max-width: 1440px) {
+  #strixpro-wrap #PN61T-02 .mtitle p {
+    font-size: 34px;
+  }
+  #strixpro-wrap #PN61T-02 .stitle p {
+    font-size: 34px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #strixpro-wrap #PN61T-02 .mtitle p {
+    font-size: 34px;
+  }
+  #strixpro-wrap #PN61T-02 .stitle p {
+    font-size: 34px;
+  }
+  #strixpro-wrap #PN61T-02 .maintitle{
+    /* top: 15%;
+    left: 3%;
+    transform: translate(0%, -15%);
+    width: 57%; */
+  }
+  #strixpro-wrap #PN61T-02 .maintitle .logo_group{
+    padding: 10px 0 15px
+  }
+}
+@media only screen and (max-width: 1400px) {
+  #strixpro-wrap #PN61T-02{
+    padding-top: 48%
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #strixpro-wrap #PN61T-02 img.mobile{
+    display: block !important;
+    margin: 0 auto
+  }
+  #strixpro-wrap #PN61T-02:before {
+    background-image: none;
+    background-color: inherit ;
+    padding-top: 0%;
+  }
+  #strixpro-wrap #PN61T-02.whiteBg .mtitle p{
+    color: #00b2dc !important;
+  } 
+  #strixpro-wrap #PN61T-02.whiteBg .stitle p, 
+  #strixpro-wrap #PN61T-02.whiteBg .maintitle .info{
+    color: #000 !important
+  }
+  #strixpro-wrap #PN61T-02 {
+    padding-top: 0%;
+    height: auto
+  }
+  #strixpro-wrap #PN61T-02 .product-content {
+    position: relative;
+    margin-bottom: 0
+  }
+  #strixpro-wrap #PN61T-02 .maintitle {
+    position: relative;
+    width: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin-left: 0;
+    padding: 50px 18px 50px;
+    transform: inherit;
+  }
+  #strixpro-wrap #PN61T-02 .stitle p,
+  #strixpro-wrap #PN61T-02 .info p{
+    text-align: left;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #strixpro-wrap #PN61T-02 .mtitle p{
+    padding-top: 0
+  }
+  #strixpro-wrap #PN61T-02:before {
+    background-image: none;
+    padding-top: 0%;
+  }
+  #strixpro-wrap #PN61T-02 {
+    padding-top: 0%;
+    padding-bottom: 0px
+  }
+  #strixpro-wrap #PN61T-02 .product-content {
+    position: relative;
+  }
+  #strixpro-wrap #PN61T-02 .maintitle {
+    width: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin-left: 0;
+    padding: 1.5em 5% ;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #strixpro-wrap #PN61T-02 .maintitle {
+    padding-top: .5em;
+  }
+  #strixpro-wrap #PN61T-02 .mtitle p {
+    font-size: 32px;
+  }
+  #strixpro-wrap #PN61T-02 .stitle p {
+    font-size: 18px;
+  }
+}
+

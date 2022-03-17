@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'SF UI Display Thin';
+	src: url('.sfuidisplay_thin.eot');
+	src: local('sfuidisplay_thin'), 
+	url('../fonts/sfuidisplay_thin.woff') format('woff'), 
+	url('../fonts/sfuidisplay_thin.ttf') format('truetype'),
+	url('../fonts/sfuidisplay_thin.svg#htc-icon') format('svg');
+}
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_4410">Text with this font applied</p> */
+
+/* Font downloaded from FontsForWeb.com */
