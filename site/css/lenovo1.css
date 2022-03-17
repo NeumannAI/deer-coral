@@ -1,0 +1,310 @@
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: local("Lato Light"), local("Lato-Light"), url(https://p1-ofp.static.pub/SystemFragment/static/S6u9w4BMUTPHh7USSwaPGQ3q5d0N7w.woff2) format("woff2");
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: local("Lato Light"), local("Lato-Light"), url(https://p1-ofp.static.pub/SystemFragment/static/S6u9w4BMUTPHh7USSwiPGQ3q5d0.woff2) format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local("Lato Regular"), local("Lato-Regular"), url(https://p2-ofp.static.pub/SystemFragment/static/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format("woff2");
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local("Lato Regular"), local("Lato-Regular"), url(https://p2-ofp.static.pub/SystemFragment/static/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format("woff2")
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local("Lato Bold"), local("Lato-Bold"), url(https://p3-ofp.static.pub/SystemFragment/static/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format("woff2");
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local("Lato Bold"), local("Lato-Bold"), url(https://p3-ofp.static.pub/SystemFragment/static/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: local("Lato Black"), local("Lato-Black"), url(https://p4-ofp.static.pub/SystemFragment/static/S6u9w4BMUTPHh50XSwaPGQ3q5d0N7w.woff2) format("woff2");
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: local("Lato Black"), local("Lato-Black"), url(https://p4-ofp.static.pub/SystemFragment/static/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2) format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: none
+}
+
+html,
+body,
+button {
+	font-size: 16px;
+	color: #000;
+	font-family: "Lato", Helvetica, Arial, sans-serif
+}
+
+a {
+	color: inherit
+}
+
+.lenovo_body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column
+}
+
+.main_content {
+	flex: 1
+}
+
+ul,
+ol {
+	list-style: none
+}
+
+ul[style] li,
+ol[style] li {
+	margin-left: 1em
+}
+
+a {
+	text-decoration: none;
+	text-indent: 0;
+	cursor: pointer
+}
+
+img,
+fieldset,
+input {
+	border: 0
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	font-size: 12px;
+	word-break: break-word
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.clearfix {
+	zoom: 1
+}
+
+.fr {
+	float: right
+}
+
+.fl {
+	float: left
+}
+
+.mt10 {
+	margin-top: 10px
+}
+
+.mb10 {
+	margin-bottom: 10px
+}
+
+.mr10 {
+	margin-right: 10px
+}
+
+.ml10 {
+	margin-left: 10px
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+button {
+	border: 0
+}
+
+input {
+	border-radius: 0
+}
+
+button,
+input,
+select,
+textarea {
+	background-color: transparent;
+	border-style: none
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between
+}
+
+.line {
+	width: 11px !important;
+	text-align: center !important;
+	line-height: 17px !important;
+	color: #555
+}
+
+.blue {
+	color: #1976a1
+}
+
+.green {
+	color: #498631
+}
+
+.gray {
+	color: #676767
+}
+
+.bold {
+	font-weight: bold
+}
+
+.relative {
+	position: relative
+}
+
+.font14 {
+	font-size: 14px
+}
+
+.imgWrap {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	line-height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.layoutGroup {
+	width: 100%
+}
+
+i,
+b {
+	font-style: normal
+}
+
+.shine {
+	background: #f6f7f8 linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%) no-repeat;
+	background-size: cover;
+	display: inline-block;
+	position: relative;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-name: placeholderShimmer;
+	-webkit-animation-timing-function: linear
+}
+
+@-webkit-keyframes placeholderShimmer {
+	0% {
+		background-position: -468px 0
+	}
+	100% {
+		background-position: 468px 0
+	}
+}
+
+.grey-out {
+	opacity: .25;
+	pointer-events: none !important;
+	cursor: default !important
+}
+
+.no-focus-outline a:focus,
+.no-focus-outline li:focus,
+.no-focus-outline p:focus,
+.no-focus-outline span:focus,
+.no-focus-outline ul:focus,
+.no-focus-outline ol:focus,
+.no-focus-outline dl:focus,
+.no-focus-outline dd:focus,
+.no-focus-outline dt:focus,
+.no-focus-outline h1:focus,
+.no-focus-outline h2:focus,
+.no-focus-outline h3:focus,
+.no-focus-outline h4:focus,
+.no-focus-outline h5:focus,
+.no-focus-outline h6:focus,
+.no-focus-outline form:focus,
+.no-focus-outline fieldset:focus,
+.no-focus-outline legend:focus,
+.no-focus-outline input:focus,
+.no-focus-outline select:focus,
+.no-focus-outline textarea:focus,
+.no-focus-outline th:focus,
+.no-focus-outline td:focus,
+.no-focus-outline button:focus,
+.no-focus-outline div:focus {
+	outline: 0
+}
+
+.gaming-theme-black .shine {
+	background: #333f48 linear-gradient(to right, #333f48 0%, #4a5863 20%, #333f48 40%, #333f48 100%);
+	-webkit-animation-duration: 2s
+}
