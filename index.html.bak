@@ -473,8 +473,24 @@ async=""></script>
                           </div>
                         </div>
                       </section>
-                      <section class="full-section" id="PN61T-a05"><img class="mobile"
-                          src="./site/images/faster_pic_s.jpg" alt="">
+                      <section class="full-section" id="PN61T-a05">
+                        <div class="mainsize">
+                          <div class="maintitle">
+                            <div class="stitle">
+                              <p>Performance</p>
+                            </div>
+                            <div class="mtitle">
+                              <p>Faster and better DDR4 RAM</p>
+                            </div>
+                            <div class="info">With DDR4 2666 MHz RAM that’s up
+                              to 1.25X faster than DDR4 2133 MHz memory, ASUS
+                              Mini PC PN61T provides excellent all-round
+                              computing performance.</div>
+                          </div>
+                        </div>
+                        <div class="mainfull"> <img class="webstyle" src="./site/images/faster_pic.jpg"
+                            alt=""> <img class="mobile" src="./site/images/faster_pic_s.jpg"
+                            alt=""> </div>
                         <div class="mainsize">
                           <div class="maintitle">
                             <div class="stitle">
